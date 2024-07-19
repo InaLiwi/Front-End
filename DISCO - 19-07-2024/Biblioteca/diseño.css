@@ -1,0 +1,46 @@
+/*Para el fondo coloque un color morado oscuro, que aunque no es muy comun verlo en juegos de apuestas, este se utiliza para
+captar la apención del publico al verlo y provocar sentimientos de exclusividad*/
+.fondo{
+    background-color: #240124;
+}
+
+/*Para darle un pequeño borde a las imagenes redondeando las puntas*/
+.imagenes{
+    border-radius: 5px;
+}
+/*Para centrar los botones y la informacion que se encuentra entre las imagenes*/
+#parametro {
+    margin-top: 5%;
+}
+
+/*El color del formulario más claro para que destaque del fondo pero sigue estando en los tonos morados
+Un borde para definir el formulario del fondo
+margen arriba y abajo */
+#formulario{
+    background-color: rgb(255, 230, 230);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style:solid;
+}
+
+/*Para tener un margen entre el formulario y el borde*/
+.jugadores{
+    margin-top: 5%;
+}
+
+/*Le da margen al boton y estilo al borde*/
+#boton-iniciar{
+    margin-bottom: 5%;
+    border-style:solid;
+
+}
+
+/*Lo que estaba oculto se muestra*/
+.ocultar {
+    display: none;
+}
+/*Lo que se muestra se oculta*/
+.mostrar {
+    display: block;
+}
+
