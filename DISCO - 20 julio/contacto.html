@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discoteca</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body id="fondo">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style=" background-color: rgb(19, 3, 32);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/DISCO STU1.png" alt="DISCO STU'S DANCE PALACE" width="130" height="130" class="shake">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="max-width: 150px;">
+              <li class="nav-item">
+                <a class="nav-link active" id="text1" aria-current="page" href="#" style="color:rgb(247, 109, 203);">Página principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="text1" href="contacto.html" style="color:rgb(247, 109, 203);">Contacto</a>
+              </li>
+              <li>
+                <div class="btn-group dropend">
+                  <button type="button" id="text1" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(247, 109, 203)";>
+                    Secciones
+                  </button>
+                  <ul class="dropdown-menu" id="borde1" style="background-color:  rgb(25, 5, 41);">
+                    <li><a class="dropdown-item" href="eventos.html" style="color:rgb(247, 109, 203);">Eventos</a></li>
+                    <li><a class="dropdown-item" href="galeria.html" style="color:rgb(247, 109, 203);">Galería de fotos</a></li>
+                    <li><a class="dropdown-item" href="https://blogdediscostu.wordpress.com" style="color:rgb(247, 109, 203);">Blog de Stu</a></li>
+                  </ul>
+                  <div class="text-right">
+                  <img src="imagenes/disco1.jpg" alt="" height="80px">
+                  </div>
+                </div> 
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="row">
+
+      <!-- FORMULARIO -->
+      <div class="col-4">
+        <h1 class="text-center">Contáctanos</h1>
+        <form action="" class="text-center">
+          <br>      <label for="nombre">Nombre y apellido:</label>
+          <br>      <input type="text" id="nombre" placeholder="Juan Pérez D.">
+          <br><br>  <label for="telefono">Número de teléfono celular: </label>
+          <br>      <input type="number">
+          <br><br>  <label for="">Consulta, sugerencia o cotización:</label>
+          <br>      <textarea name="" id="" placeholder="Cuéntanos en detalle..."></textarea>
+        </form>
+      </div>
+
+      <!-- MAPA -->
+      <div class="col-8">
+        <h1 class="text-center">¡¡Ven a bailar en <strong>Disco Stu</strong>!!</h1>
+        <div style="width: 100%;" class="text-center">
+            <iframe width="70%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+            src="https://maps.google.com/maps?width=80%25&amp;height=400&amp;hl=en&amp;q=-34.98374612786815,-71.24170839786531+(Cindy%20Book)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            <a href="https://www.gps.ie/">gps systems</a>
+        </iframe>
+        </div>
+      </div>
+    
+    </div>
+
+    
+    <!-- CALL CENTER -->
+    <br><br><br>
+    <script src="https://kit.fontawesome.com/bf17cea473.js" crossorigin="anonymous"></script>
+    <div class="container text-center">
+      <div class="container"> <hr><br> </div>
+      <h1>Call Center</h1>
+      <br>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <h5> <i class="fa-brands fa-whatsapp"></i> +569 1234 4321 </h5>
+          <h5> <i class="fa-brands fa-instagram"></i> baila_con_disco-stu </h5>
+        </div>
+        <div class="col-4">
+          <h5> <i class="fa-regular fa-envelope"></i> contacto@disco-stu.cl </h5>
+          <h5> <i class="fa-solid fa-phone"></i> 752 123456 </h5>
+        </div>
+      </div>
+
+
+    </div>
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="funciones.js"></script>
+</body>
+</html>
