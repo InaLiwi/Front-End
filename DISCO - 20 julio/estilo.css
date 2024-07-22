@@ -5,6 +5,18 @@
 
 
 
+/*Se ocultan las características de las imágenes. No deben aparecer en pantalla, son datos escritos solo para ser analizados por el .js*/
+caracteristicas{
+  display:none;
+}
+
+button{
+  background-color: rgb(101, 47, 145);
+}
+button:hover{
+  background-color: #c2d8b9;
+}
+
 #galeria{
   /*
   margin: 1rem auto;
