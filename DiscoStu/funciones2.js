@@ -1,5 +1,5 @@
 // Configuración del contador regresivo
-const countdownDate = new Date("2024-09-15T12:00:00"); // Fecha y hora del próximo evento
+const countdownDate = new Date("2024-07-27T12:22:00"); // Fecha y hora del próximo evento
 const countdownContainer = document.getElementById("countdown-container");
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");

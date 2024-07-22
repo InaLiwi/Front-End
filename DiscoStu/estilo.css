@@ -224,19 +224,21 @@ display: none;
 }
 
 .banner {
-  background-color: #f8e71c;
-  color: #333;
-  padding: 20px;
+  background-color: rgb(19, 3, 32);
+  color: #00fff2;
   text-align: center;
-}
-
-.banner h2 {
+  padding: 50px;
   font-size: 24px;
-  margin-bottom: 10px;
+  animation: bounce 2s infinite alternate;
 }
 
-.banner p {
-  font-size: 16px;
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 #formulario {
@@ -252,4 +254,17 @@ display: none;
 
 #login{
   color: black;
+}
+
+#countdown-title {
+  animation: scaleText 2s infinite alternate;
+}
+
+@keyframes scaleText {
+  0% {
+    font-size: 24px;
+  }
+  100% {
+    font-size: 28px;
+  }
 }

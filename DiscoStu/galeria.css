@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5afaf;
+  }
+  
+  header {
+    background-color: #fdc0fe;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #filters {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px; /* Añade un padding al contenedor para el margen entre las fotos */
+  }
+  
+  .photo {
+    width: 30%; /* Ancho de cada foto */
+    margin: 10px; /* Espacio entre las fotos */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Añade flex para centrar contenido */
+    justify-content: center; /* Centra contenido horizontalmente */
+    align-items: center; /* Centra contenido verticalmente */
+  }
+  
+  .photo img {
+    max-width: 100%; /* Asegura que la imagen no supere el tamaño de su contenedor */
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  
